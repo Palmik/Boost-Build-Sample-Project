@@ -3,7 +3,7 @@
 
 inline int bar1(int a, int b)
 {
-    return a * b;
+    return a + b;
 }
 
 #endif

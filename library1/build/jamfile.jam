@@ -1,1 +1,6 @@
- 
+alias library1
+    :
+    :
+    :
+    : <include>../
+    ;

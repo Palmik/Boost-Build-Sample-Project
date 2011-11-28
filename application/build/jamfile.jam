@@ -1,0 +1,8 @@
+alias used-libs : /library1 /library2 ;
+
+exe appliaction
+    : [ glob ../*.cpp ] used-libs
+    :
+    :
+    :
+    ;
