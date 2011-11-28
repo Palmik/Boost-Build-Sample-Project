@@ -1,0 +1,10 @@
+lib boost_unit_test_framework ;
+
+unit-test library2/tests/test1
+    : test1.cpp /library2 boost_unit_test_framework
+    ;
+
+unit-test library2/tests/test2
+    : test2.cpp /library2 boost_unit_test_framework
+    ;
+ 

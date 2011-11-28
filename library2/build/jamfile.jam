@@ -1,0 +1,6 @@
+lib library2
+    : [ glob ../sources/*.cpp ] 
+    :
+    :
+    : <include>../
+    ;

@@ -1,0 +1,17 @@
+project my-project
+    : requirements <include>.
+    : usage-requirements <include>.
+    ;
+
+build-project library1/build ;
+build-project library1/tests ;
+
+build-project library2/build ;
+build-project library2/tests ;
+
+build-project application/build ;
+
+use-project /library1 : library1/build ;
+use-project /library2 : library2/build ;
+
+use-project /application : application/build ;
